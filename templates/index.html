@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Full Stack Project 1</title>
+      <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+    <body>
+        <div class="first-div">
+            <h1>Simple Calculator</h1>
+            <form action="" method="post">
+                <input type="number" placeholder="Enter num1" name="num1">
+                <select name="opr">
+                    <option value="add">+</option>
+                    <option value="sub">-</option>
+                    <option value="mul">*</option>
+                    <option value="div">/</option>
+                </select>
+                <input type="number" placeholder="Enter num2" name="num2">
+                <button id="b1" type="submit">Calculate</button>
+            </form>
+        </div>
+        <div class="output-div">
+           {{output}}
+        </div>
+    </body>
+</html>
